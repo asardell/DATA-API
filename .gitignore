@@ -1,0 +1,18 @@
+# Environnements virtuels
+.venv/
+venv/
+
+# Fichiers générés par Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Notebooks Jupyter
+.ipynb_checkpoints/
+
+# Secrets (clés d'API, mots de passe)
+.env
+
+# Base SQLite locale de l'API de test (recréée au démarrage)
+*.sqlite
+*.db
